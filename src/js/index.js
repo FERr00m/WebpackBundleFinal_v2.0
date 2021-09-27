@@ -2,6 +2,8 @@
 import '@/sass/main';
 import '@/css/style';
 
+//import $ from 'jquery';
+
 //import images
 import adminBG from '@/img/adminBG';
 import supernova from '@/img/supernova';
@@ -12,7 +14,9 @@ import webp from '@/img/webp';
 
 //import js
 import alerts from "./modules/alerts";
+import other from './modules/other';
 
 
 //launch js modules
 alerts();
+other();

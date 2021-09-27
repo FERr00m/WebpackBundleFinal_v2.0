@@ -31,6 +31,7 @@
     "imagemin-pngquant": "^9.0.2",
     "imagemin-svgo": "^10.0.0",
     "imagemin-webp": "^6.0.0",
+    "jquery": "^3.6.0",
     "mini-css-extract-plugin": "^2.3.0",
     "postcss": "^8.3.7",
     "postcss-loader": "^6.1.1",

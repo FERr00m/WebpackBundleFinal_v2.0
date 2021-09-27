@@ -49,7 +49,8 @@ const generateHTML = fileName => {
 module.exports = {
     context: path.resolve(__dirname, 'src'),  // указание на папку исходных файлов
     entry: {
-        main: ['@babel/polyfill', './js/index.js']
+        main: ['@babel/polyfill', './js/index.js']  // With babel
+        //main: './js/index.js'
     },
     output: {
         filename: `js/${filename('js')}`,
