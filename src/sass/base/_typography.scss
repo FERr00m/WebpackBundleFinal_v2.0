@@ -1,0 +1,9 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  font-family: $text-font-stack;
+  color: $text-color;
+  font-weight: 400;
+  font-size: inherit;
+}

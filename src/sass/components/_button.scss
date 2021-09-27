@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+// Переменные для кнопки
+$button-color: $brand-color;
+
+// … включите сюда любые правила для кнопки:
+// - миксины
+// - плейсхолдеры
+// - функции
+
+/**
+ * Кнопки
+ */
+.button {
+  display: block;
+  padding: 1rem;
+  color: $button-color;
+  // … etc.
+
+  /**
+   * Инлайновая кнопка для больших экранов
+   */
+  @include respond-to('xl') {
+    display: inline-block;
+  }
+}
+
+/**
+ * Иконки внутри кнопок
+ */
+.button > svg {
+  fill: currentcolor;
+}
+
+/**
+ * Инлайновая кнопка
+ */
+.button--inline {
+  display: inline-block;
+}

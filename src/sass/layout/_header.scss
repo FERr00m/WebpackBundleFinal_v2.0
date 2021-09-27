@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.nav {
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/adminBG.jpg');
+    display: flex;
+    @include BGcontain;
+}
